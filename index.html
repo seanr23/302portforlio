@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIS 302: JavaScript Fundamentals</title>
+    <style>
+        body {
+            background-color: green;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 600px;
+        }
+
+        .portfolio-table {
+            width: 100%;
+            background-color: lightgreen;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        .portfolio-table td, .portfolio-table th {
+            border: 1px solid black;
+            padding: 10px;
+            vertical-align: middle;
+        }
+
+        .table-header {
+            text-align: center;
+            background-color: lightgreen;
+            padding: 20px;
+        }
+
+        .profile-pic-cell {
+            text-align: center;
+            padding: 10px;
+            border: 3px solid blue;
+        }
+
+        .profile-pic {
+            border: 3px solid #4682B4; /* Darker blue */
+            width: 200px;
+            height: 150px;
+        }
+
+        .details-cell {
+            text-align: left;
+            padding: 20px;
+        }
+
+        .name-cell {
+            text-align: right;
+            font-weight: bold;
+            padding-right: 10px;
+        }
+
+        .name-value {
+            text-align: left;
+            padding-left: 10px;
+            font-weight: bold;
+        }
+
+        .project-list {
+            list-style-type: decimal;
+            padding-left: 20px;
+            margin-top: 0;
+        }
+
+        .project-list li {
+            margin: 5px 0;
+        }
+
+        .project-list a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .project-list a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">CIS 302: JavaScript Fundamentals</h1>
+        <table class="portfolio-table">
+            <tr>
+                <td class="name-cell">
+                    <p>Name:</p>
+                </td>
+                <td class="name-value">
+                    <p>Sean Randolph</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="profile-pic-cell">
+                    <img src="myself.jpg" alt="Sean Randolph" class="profile-pic">
+                </td>
+                <td class="details-cell">
+                    <p>Links to my JavaScript Projects</p>
+                    <ul class="project-list">
+                        <li><a href="https://seanr23.github.io/302-TIps/" target="_blank">A JavaScript Tip Calculator</a></li>
+                        <li><a href="https://seanr23.github.io/stopwatch/" target="_blank">A JavaScript Stopwatch</a></li>
+                        <li><a href="https://seanr23.github.io/hangman1/" target="_blank">A JavaScript Hangman Game</a></li>
+                        <li><a href="https://seanr23.github.io/tactoe1/" target="_blank">A JavaScript Tic-Tac-Toe Game</a></li>
+                        <li><a href="https://seanr23.github.io/QUIZ/" target="_blank">A JavaScript Quiz</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <div class="footer">My CIS 302 Portfolio</div>
+    </div>
+</body>
+</html>
